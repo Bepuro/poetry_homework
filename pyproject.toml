@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "battlecity"
+version = "0.1.0"
+description = ""
+authors = ["Bepuro <yazov.nik.yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+black = "^23.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
